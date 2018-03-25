@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_invitation"/>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/invitation_group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                tools:text="6 Б, Школа №20 г. Минска"/>
+            <TextView
+                android:id="@+id/invitation_sender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:gravity="right"
+                tools:text="Иван Иванов" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_users_count"/>
+
+            <TextView
+                android:id="@+id/invitation_group_count"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="25"/>
+
+            <TextView
+                android:id="@+id/invitation_date"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                tools:text="24.09.2017 01:01:00"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Vedex VR</string>
+    <string name="app_version">v1.0 Demo</string>
+    <string name="app_desc">Образовательное приложение нацелено на помощь в изучении и закреплении учебного материала учащимися школ. Для лучшего усвоения материала пользователю предложено решить практические задачи в виртуальной реальности. Приложение является дополнением к учебным материалам школы (учебнику). Использование приложения без вспомогательных материалов не рекомендуется.\n\nДля прохождения практических уроков рекомендуем использовать Bluetooth-геймпад, соединённый с устройством и Cardboard VR Viewer (или его аналог)</string>
+    <string name="team_email">vedexteam@gmail.com</string>
+    <string name="app_release_date">23.09.2017</string>
+
+    <string name="edit_profile">Редактировать</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="RestorePasswordInfo">Письмо с новым паролем отправлено Вам на почту</string>
+    <string name="SendNewPassword">Отправить новый пароль</string>
+    <string name="EnterYourEmail">Введите Ваш email</string>
+    <string name="Name">Имя</string>
+    <string name="Surname">Фамилия</string>
+    <string name="Username">Логин</string>
+    <string name="Email">Email</string>
+    <string name="Password">Пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="ConfirmPassword">Подтвердите пароль</string>
+    <string name="Register">Зарегистрироваться</string>
+    <string name="Login">Войти</string>
+    <string name="UsernameOrEmail">Логин или email</string>
+    <string name="ForgotPassword">Забыли пароль?</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="start_learning">Начать обучение</string>
+    <string name="my_results">Мои результаты</string>
+    <string name="groups">Группы</string>
+    <string name="about">О программе</string>
+    <string name="exit">Выход</string>
+    <string name="success_rate">Успешность</string>
+    <string name="questions_number">Вопросы</string>
+    <string name="your_result">Ваш результат</string>
+    <string name="start_lesson">Начать урок</string>
+    <string name="user_result">Результат пользователя</string>
+    <string name="not_specified_email_alert">Email не указан</string>
+
+    <string name="inviter">Приглашает:</string>
+    <string name="invite_date">Дата приглашения:</string>
+    <string name="invite_message">Сообщение:</string>
+    <string name="about_group">О группе</string>
+    <string name="group_desc">Описание группы:</string>
+    <string name="group_date">Дата создания:</string>
+    <string name="group_count">Пользователей:</string>
+    <string name="accept_invitation">Принять</string>
+    <string name="reject_invitation">Отклонить</string>
+    <string name="invitation_accepted">Приглашение принято</string>
+    <string name="invitation_rejected">Приглашение отклонено</string>
+    <string name="change_role">Изменить роль</string>
+    <string name="add">Добавить</string>
+    <string name="user_invited">Пользователь приглашен</string>
+
+    <string name="my_groups">Мои группы</string>
+    <string name="my_invitations">Приглашения</string>
+
+    <string name="right_answers">Правильных ответов</string>
+    <string name="result_time">Время прохождения</string>
+    <string name="result_timestmap">Дата прохождения</string>
+    <string name="seconds">секунд</string>
+
+    <string name="filters">Фильтры</string>
+
+    <string name="enter_group_name">Имя группы:</string>
+    <string name="create">Создать</string>
+    <string name="group_already_exists">Группа с таким именем уже существует</string>
+    <string name="group_successfully_created">Группа успешно создана</string>
+
+    <string name="group_members">Участники</string>
+    <string name="group_results">Результаты</string>
+    <string name="remove_group">Удалить группу</string>
+    <string name="leave_group">Покинуть группу</string>
+    <string name="your_role">Ваша роль:</string>
+    <string name="group_creation_date">Дата создания:</string>
+    <string name="group_page_access_level">Уровень</string>
+    <string name="create_group">Создать группу</string>
+    <string name="confirm_leave_group">Вы действительно хотите покинуть группу?</string>
+    <string name="groups_list_updated">Список групп обновлён</string>
+    <string name="confirm_remove_group">Вы действительно хотите удалить группу? Данное действие нельзя будет отменить!</string>
+
+    <string name="no_email_alert">Email не указан\n(Восстановление аккаунта невозможно)</string>
+
+    <string name="save">Сохранить</string>
+
+    <string name="group_updated_ok">Группа успешно обновлена</string>
+    <string name="group_updated_failed">Ошибка обновления группы</string>
+
+    <string name="FieldFillingError">Ошибка заполнения полей</string>
+    <string name="LoginError">Ошибка входа</string>
+    <string name="RegistrationError">Ошибка регистрации</string>
+    <string name="api_error">Ошибка сервера</string>
+    <string name="wrong_confirmation">Пароль подтверждён неверно</string>
+    <string name="wrong_password">Неверный пароль</string>
+    <string name="bad_password">Новый пароль не соответствует требованиям</string>
+    <string name="bad_name">Имя заполнено неверно</string>
+    <string name="bad_surname">Фамилия заполнена неверно</string>
+    <string name="bad_email">Email заполнен неверно</string>
+    <string name="empty_fields_error">Поля не должны быть пустыми (кроме нового пароля)</string>
+    <string name="profile_updated_ok">Профиль успешно обновлён</string>
+    <string name="profile_updated_failed">Ошибка обновления профиля</string>
+    <string name="kick_from_group">Удалить из группы</string>
+    <string name="role">Роль</string>
+    <string name="user_removed">Пользователь успешно удалён</string>
+</resources>

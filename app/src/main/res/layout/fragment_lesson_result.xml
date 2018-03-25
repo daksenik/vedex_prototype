@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/result_page_lesson_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        tools:text="Электричество" />
+
+    <TextView
+        android:id="@+id/result_page_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginBottom="15dp"
+        tools:text="Физика 8"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/your_result"/>
+
+    <TextView
+        android:id="@+id/result_page_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="96% (159 секунд)"/>
+
+    <TextView
+        android:id="@+id/result_page_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="22.09.2017 00:20:56" />
+
+    <ImageView
+        android:id="@+id/result_page_lesson_picture"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/result_page_lesson_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Длинное описание урока, которое по идее должно занимать очень-очень-очень-очень много места. Но как всегда я не знаю, что тут писать, чтобы заполнить место для дебага, чтобы понять, сколько места будет занимать реальное описание реального предмета. Заценили, как я повторяю слова? Блин, что бы тут ещё написать такое... Хотите историю? Короче. Менеджер в конце рабочего дня говорит, что надо бы переименовать файлы. Я такой думаю 'О, это ж у меня работа появится завтра. Да ещё и такая простая! Это я могу, это запросто.'. А он короче берёт и после конца рабочего дня сам всё переименовывает. Вот теперь надо опять придумывать, что бы ему завтра сказать на митинге - я ж ничем не занимаюсь, а ему этого знать не положено. Ладно, вроде тут уже достаточно текста. Спасибо за внимание."/>
+
+    <TextView
+        android:id="@+id/result_page_lesson_average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        tools:text="Успешность: 45%" />
+    <TextView
+        android:id="@+id/result_page_lesson_questions_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Количество вопросов: 3" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp">
+
+    <Button
+        android:id="@+id/my_profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="0px"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:drawableLeft="@drawable/ic_profile"
+        android:padding="10dp"
+        android:text="@string/my_profile"
+        android:textSize="14pt" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#90909090"/>
+
+    <Button
+        android:id="@+id/start_learning"
+        android:drawableLeft="@drawable/start_learning"
+        android:text="@string/start_learning"
+        android:textSize="14pt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0px"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#90909090"/>
+
+    <Button
+        android:id="@+id/my_results"
+        android:drawableLeft="@drawable/results"
+        android:text="@string/my_results"
+        android:textSize="14pt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0px"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#90909090"/>
+
+    <Button
+        android:id="@+id/groups"
+        android:drawableLeft="@drawable/groups"
+        android:text="@string/groups"
+        android:textSize="14pt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0px"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#90909090"/>
+
+    <Button
+        android:id="@+id/about"
+        android:drawableLeft="@drawable/about"
+        android:text="@string/about"
+        android:textSize="14pt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0px"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#90909090"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:drawableLeft="@drawable/exit"
+        android:text="@string/exit"
+        android:textSize="14pt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0px"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        />
+
+</LinearLayout>

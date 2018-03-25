@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:background="?android:attr/selectableItemBackground">
+    <ImageView
+        android:id="@+id/mini_lesson_picture"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/profile_default_pic"
+        android:background="@drawable/rounded_border"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lesson_name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Тепловое движение частиц (Физика 8)"
+                android:textStyle="bold"
+                android:padding="1dp"
+                android:textColor="@color/colorLink"/>
+            <TextView
+                android:id="@+id/success_rate_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                tools:text="Успешность: 67%"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/questions_number_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="1dp"
+                tools:text="Вопросы: 3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

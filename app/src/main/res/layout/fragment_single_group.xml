@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/group_page_groupname"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#000"
+            tools:text="Название группы"
+            />
+        <ImageButton
+            android:id="@+id/group_page_editgroup"
+            android:src="@drawable/ic_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/your_role"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/group_page_role"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/group_creation_date"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/group_page_creationdate"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/group_page_groupdesc"
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        tools:text="Описание группы, должно быть достаточно длинным, чтобы занять несколько строк, но при этом не забрать всё пространство фрагмента - чтобы оставить место для кнопок управления группой. Надо бы ограничить его длину в символов так ... хм... Сколько символов ставить в ограничение? Надо бы писать этот текст, пока я не пойму, что именно столько символов будет достаточно для отображения описания группы (и всё остальное можно обрезать и заменить многоточием), посчитать длину этого текста в каком-нибудь Sublime Text 3 (крутая штука), а потом захардкодить это значение в самом фрагменте - где устанавливается контент для TextView. Мне кажется, существует другой способ ограничить текст в Android, но у меня мало времени(. Кажется, столько должно быть достаточно - остальное место займут кнопки."/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginRight="5dp"
+                android:text="@string/group_members"
+                android:id="@+id/group_page_membersbutton"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginLeft="5dp"
+                android:id="@+id/group_page_results"
+                android:text="@string/group_results"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:text="Loading..."
+            android:theme="@style/RejectButton"
+            android:id="@+id/group_page_leave_or_remove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
